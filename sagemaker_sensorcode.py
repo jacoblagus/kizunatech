@@ -226,30 +226,6 @@ print(result)
 a[0]
 
 
-# # Train data, Test data
-
-# In[21]:
-
-
-#train_data, test_data = np.split(data.sample(frac=1, random_state=1729), [int(0.7 * len(data))])
-#print(train_data.shape, test_data.shape)
-
-
-# In[22]:
-
-
-#result2 = linear_predictor.predict(test_data[0])
-#print(result2)
-#test_data[0]
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
