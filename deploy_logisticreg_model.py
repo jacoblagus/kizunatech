@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # After deploying model in Sagemaker, you can run this in local Python session to make prediction
 
 import sagemaker
