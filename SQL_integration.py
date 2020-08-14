@@ -1,3 +1,5 @@
+# Must first install ODBC Driver on Amazon Sagemaker terminal: https://aws.amazon.com/premiumsupport/knowledge-center/odbc-driver-sagemaker-sql-server/
+
 import pyodbc 
 
 server = '3.22.160.243' 
