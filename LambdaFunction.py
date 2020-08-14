@@ -21,12 +21,7 @@ def lambda_handler(event, context):
     print(response)
     result = json.loads(response['Body'].read().decode())
     print(result)
-    #pred = int(result['predictions'][0]['score'])
-    #predicted_label = 'O' if pred == 1 else 'V'
-    
-    #return predicted_label
-    
+
     return result
     
-    #pred = result['predictions'][0]['score']
-    #return pred
+    # Test Lambda Function with following JSON: {"data":"1.0000000e+00, 2.3180000e+01, 2.7271999e+01, 4.2600000e+02,7.2125000e+02, 4.7929883e-03, 1.0000000e+00"}
