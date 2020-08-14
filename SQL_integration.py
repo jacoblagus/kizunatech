@@ -34,4 +34,7 @@ cnxn.add_output_converter(-155, handle_datetimeoffset)
 import pandas as pd
 
 sql_query = pd.read_sql_query('SELECT * FROM iot_viewer_test.dbo.devices inner join iot_viewer_test.dbo.deviceRawData on iot_viewer_test.dbo.devices.id = iot_viewer_test.dbo.deviceRawData.id',cnxn)
-print(sql_query)
+
+# Drop irrelevant columns
+new_table = sql_query.drop(columns={'brand','requestInterval'})
+new_table
