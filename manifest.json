@@ -1,0 +1,14 @@
+{
+    "fileLocations": [
+        {
+            "URIs": [
+                "https://kizsensordata.s3.us-east-2.amazonaws.com/datatest.txt"
+            ]
+        }
+    ],
+    "globalUploadSettings": {
+        "format": "CSV",
+        "delimiter": ",",
+        "containsHeader": "true"
+    }
+}
