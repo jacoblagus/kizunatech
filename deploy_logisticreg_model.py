@@ -7,6 +7,8 @@ import requests
 import json
 
 sess = sagemaker.Session(boto3.session.Session(region_name='us-east-2'))
+
+# This role must have InvokeEndpoint permission
 role = 'arn:aws:iam::178346040475:role/service-role/AmazonSageMaker-ExecutionRole-20200616T152066'
 
 
